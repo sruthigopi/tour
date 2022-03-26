@@ -1,0 +1,306 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+
+} 
+/* navbar */
+
+.navbar{
+    background-color: rgb(20, 9, 68);
+    
+}
+
+.navbar-brand {
+    font-weight: 1000; 
+    font-family: 'Pacifico', cursive;  
+    color: white; 
+}
+.nav-item{
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+
+.nav-link{
+    font-weight: 500; 
+    color: white;
+}
+.nav-link:hover{
+color: orangered;
+} 
+.navbar-brand:hover{
+    color: white; 
+}
+.navbar-toggler{
+  color: white;
+}
+.navbar-toggler span{
+  display: block;
+  border: 1px;
+  background: rgb(173, 163, 163); 
+}
+
+/* modal */
+.modal-body .btn{
+    width: 100%;
+}
+.loaccount{
+    margin-top: 10px;
+    margin-left: 13%;
+}
+.loaccount a{
+    padding: 20%;
+    text-decoration: none;
+    font-size: 20px;  
+}
+
+/* carosal */
+
+  .carousel-item img{
+    height: 100vh;
+} 
+
+.carousel-caption{
+   padding-left: 100px;
+  padding-right: 100px;
+}
+.carousel-caption h5 {
+    font-size:50px ;
+    font-weight: 400;
+}
+.carousel-caption h6{
+  font-size: 30px;
+  font-weight: 90px;
+  
+}
+
+/* cards */
+
+.expe{
+   padding-top: 40px; 
+   padding-bottom: 40px; 
+    text-align: center;
+    font-size: 20PX;
+    color: rgb(9, 9, 109);
+}
+.card-body h5{
+    font-size: 30px;
+    padding-bottom: 5px;
+    font-weight: 60;
+    color:rgb(9, 9, 109);    
+}
+.card-body p{
+    font-size: 18px;
+}
+.inner{
+    overflow: hidden;
+}
+.inner img{
+    transition: all 1.5s ease;
+}
+.inner:hover img{
+    transform: scale(1.5);
+} 
+
+/* districts */
+
+#state{
+    text-align: center;
+     color: rgb(9, 9, 109); 
+    margin: 50px;
+}
+ .row1 {
+  position: relative;
+ 
+}  
+.map img{
+
+ height: 90vh;
+padding-left: 32%;
+
+}
+.st .st1{
+position: absolute; 
+top: 7%;
+left: 32%;
+text-decoration: none;
+}
+.st .st2{
+position: absolute; 
+top: 15%;
+left: 39%;
+text-decoration: none;
+}  
+.st .st3{
+position: absolute; 
+top: 27%;
+left: 40%;
+text-decoration: none;
+}  
+.st .st4{
+position: absolute; 
+top: 22%;
+left: 46%;
+text-decoration: none;
+}  
+.st .st5{
+position: absolute; 
+top: 36%;
+left: 42%;
+text-decoration: none;
+}  
+.st .st6{
+position: absolute; 
+top: 42%;
+left: 50%;
+text-decoration: none;
+} 
+.st .st7{
+position: absolute; 
+top: 50%;
+left: 47%;
+text-decoration: none;
+} 
+.st .st8{
+position: absolute; 
+top: 59%;
+left: 47%;
+text-decoration: none;
+}  
+.st .st9{
+position: absolute; 
+  top: 62%;
+ left: 56%;
+  text-decoration: none;
+  }   
+ .st .st10{
+  position: absolute; 
+ top: 68%;
+ left: 51%;
+text-decoration: none;
+ }  
+.st .st11{
+  position: absolute; 
+ top: 72%;
+ left: 45%;
+text-decoration: none;
+ }  
+ .st .st12{
+  position: absolute; 
+ top: 77%;
+ left: 55%;
+  text-decoration: none;
+   }  
+.st .st13{
+position: absolute; 
+top: 83%;
+left: 54%;
+text-decoration: none;
+}   
+.st .st14{
+position: absolute; 
+top: 90%;
+ left: 45%;
+ text-decoration: none;
+ }  
+
+  /* connect with us */
+
+   .connect{
+    text-align: center;
+    padding-top: 40px;
+    color: rgb(9, 9, 109);
+
+  }  
+  .contact{
+    padding-left: 20%;
+    padding-top: 2%;
+  }
+  .fa-brands{
+    font-size: 60px;
+    padding: 10px;
+    
+  }
+  .fa-youtube{
+    color: red;
+  }
+  .fa-facebook{
+    color:blue;
+  }
+  .fa-twitter{
+    color:skyblue;
+  }
+  .fa-instagram{
+    color:pink;
+  }
+  .fa-whatsapp{
+    color:green;
+  }
+  .fa-pinterest{
+    color:red;
+  }
+  .fa-linkedin-in{
+    color:skyblue;
+  }
+
+  /* footer */
+
+  footer{
+    background-color:rgb(2, 2, 48);
+    height: 230px;
+   margin-top: 40px;
+  }
+.footer-content{
+color: white;
+text-align: center;
+padding-top: 40px;
+}
+
+/* districs pages */
+
+.kas img{
+  background-size: cover;
+   overflow: hidden; 
+   width: 98.7vw;  
+   height: 70vh;
+   position: relative;
+}
+.kas h2{
+  position: absolute;
+  top: 60px;
+  color: rgb(94, 3, 3);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  font-weight: 30px;
+  
+}
+
+.kas p{
+  margin: 100px;
+}
+
+ .baimg img{
+   width: 50%; 
+    margin-left: 30%;  
+  
+   
+  
+ } 
+.baimg h2{
+  color: rgb(9, 9, 109);
+  text-align: center;
+  margin-bottom: 70px;
+
+}
+.baimg h3{
+ margin-left: 40px;
+ color: brown;
+ margin-top: 50px;
+ margin-right: 30px;
+ background-color: wheat;
+ padding: 10px;
+
+}
+.baimg p{
+ margin: 40px;
+}

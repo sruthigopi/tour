@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Signup to kerala Tourism</title>
+    <script src="https://kit.fontawesome.com/01236b3042.js" crossorigin="anonymous"></script>
+    <style>
+        body{
+            background-size: cover;
+        }
+        .form-container{
+            font-size: 20px;
+            padding: 40px 30px;
+            margin-top: 20%;
+            margin-bottom: 20%;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            background-color: beige;
+        }
+        .btn{
+            width: 100%;
+        }
+        .form-container h4{
+            margin-bottom: 20px;
+            font-size: 25px;
+            text-align: center;
+        }
+          .loaccount{
+     margin-top: 10px;
+    
+    text-align: center;
+}  
+.loaccount a{
+    
+    text-decoration: none;
+    font-size: 20px; 
+    
+} 
+.mb-3 span{
+  font-size: 15px;
+  font-weight: 15px;
+}
+
+ input{
+  position: relative;
+}
+    .font  {
+      position: relative;
+      top: -35px;
+      left: 85%;
+
+    }  
+    </style>
+  </head>
+  <body background="ker2.jpg">
+    
+    <div class="container-fluid">
+    <div class="row">
+    <div class="col-md-4 col-sm-4"></div>
+    <div class="col-md-4 col-sm-4">
+    <form class="form-container" action="index.html" onsubmit="return validateform()">
+        <h4>Create A New Account</h4>
+        <hr>
+         
+        <div class="mb-3">
+            <label for="TextInput" class="form-label">First Name</label>
+            <input type="text" id="fsn" class="form-control" placeholder="First Name" required>
+            <i><span id="msg1"></span></i>
+          </div>
+          <div class="mb-3">
+            <label for="TextInput" class="form-label">Last Name</label>
+            <input type="text" id="TextInput" class="form-control" placeholder="Last Name" required>
+          </div>
+          <div class="mb-3">
+            <label for="TextInput" class="form-label">Phone Number</label>
+            <input type="text" id="phone" class="form-control"  required placeholder="Phone Number" onkeyup="return phnovalidate()" >
+            <span class="font" id="ckph"></span> 
+            <i><span id="msgph"></span></i>
+          </div>
+          <div class="mb-3">
+            <label for="Email" class="form-label" >Email address</label>
+            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required placeholder="Email Id"  onkeyup="return emailvalidate()" >
+            <span class="font" id="ck"></span>
+            <i><span id="msgem"></span></i>
+          </div>
+          <div class="mb-3">
+            <label for="pwd" class="form-label">Password</label>
+            <input type="password" class="form-control" id="pwd" required placeholder="password" onkeyup="return pwdvalidate()" >
+            <span class="font" id="ckp"></span> 
+            <i><span id="msgpw"></span></i>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
+            <input type="password" class="form-control" id="cpwd"  required placeholder="Password" onkeyup="return cpwdvalidate()" >
+            <span class="font" id="ckcp"></span> 
+            <i><span id="msgcpw"></span></i>
+          </div>
+        <button type="submit" class="btn btn-success">Sign Up</button>
+        <i><span id="ckmsg"></span></i>
+      </form>
+    </div>
+</div>
+</div>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+     <script src="signup.js"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
